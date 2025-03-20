@@ -103,6 +103,8 @@ In each iteration, a conditional check is used to determine if the current IP ad
 for element in ip_addresses:
     if element in remove_list:
         ip_addresses.remove(element)
+# Display `ip_addresses` 
+print(ip_addresses)
 ```
 
 ### Update the file with the revised list of IP addresses
