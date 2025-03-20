@@ -93,6 +93,7 @@ The program then loops through the `remove_list` and checks each IP address in t
 
 ```python
 for element in ip_addresses:
+# Display `element` in every iteration
     print(element)
 ```
 
